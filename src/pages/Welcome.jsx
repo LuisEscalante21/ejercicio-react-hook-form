@@ -62,14 +62,14 @@ const Welcome = () => {
 
               {/* Subtítulo con animación de escritura */}
               <div className="mb-8">
-                <SubTitulo titulo="Aplicación CRUD Cinematográfica" />
+                <SubTitulo titulo="Aplicación CRUD de Videojuegos" />
               </div>
 
               {/* Descripción */}
               <p className="mb-8 text-gray-300 text-lg leading-relaxed">
-                🎬 Prepárate para una experiencia épica con nuestra aplicación CRUD
+                🎮 Prepárate para una experiencia épica con nuestra aplicación CRUD
                 <br />
-                <span className="text-cyan-400 font-semibold">¡La aventura comienza ahora!</span>
+                <span className="text-cyan-400 font-semibold">¡La diversión comienza ahora!</span>
               </p>
 
               {/* Botón usando el componente original */}
@@ -79,7 +79,7 @@ const Welcome = () => {
                   <Button 
                     type="button" 
                     onClick={handleAccept} 
-                    text="🎥 COMENZAR AVENTURA"
+                    text="🕹️ COMENZAR DIVERSION"
                   />
                 </div>
               </div>
