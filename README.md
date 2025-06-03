@@ -1,12 +1,76 @@
-# React + Vite
+# Videojuegos React Hook Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene un ejercicio de **React Hook Form** sobre videojuegos, desarrollado con el fin de poner en práctica y utilizar las herramientas proporcionadas en clase.
 
-Currently, two official plugins are available:
+## Tecnologías y Librerías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto utiliza las siguientes tecnologías y librerías:
 
-## Expanding the ESLint configuration
+### Lenguajes de Programación
+- **React**
+- **Node.js**
+- **CSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### API
+- [Videojuegos API](https://retoolapi.dev/9mznW9/videojuegos)
+
+### Dependencias Adicionales
+
+- @tailwindcss/vite": "^4.1.8" ------------------------- npm install tailwindcss @tailwindcss/vite
+- "react-hook-form": "^7.56.4" ----------------------------------- npm install react-hook-form
+- "react-hot-toast": "^2.5.2" ----------------------------------- npm install react-hot-toast
+- "react-router-dom": "^7.6.1 ----------------------------------- npm install react-router-dom
+
+## Estructura del Proyecto
+La estructura de directorios es la siguiente:
+
+node_modules/
+public/
+src/
+  assets/
+  components/
+    Button.jsx
+    ButtonDelete.jsx
+    InputText.jsx
+    SelectInput.jsx
+    SubTitulo.jsx
+    Titulos.jsx
+  hooks/
+    games/
+      useDataGame.jsx
+      useFetchGames.jsx
+      useGameAction.jsx
+      useImageChange.jsx
+  pages/
+    styles/
+      Welcome.css
+    Games.jsx
+    Home.jsx
+    PageNotFound.jsx
+    Welcome.jsx
+  utils/
+    apiUrl.jsx
+  App.css
+  App.jsx
+  index.css
+  main.jsx
+.gitignore
+eslint.config.js
+index.html
+package-lock.json
+package.json
+README.md
+vite.config.js
+
+## Instrucciones de Instalación y Ejecución
+
+Clona el repositorio:
+- git clone https://github.com/usuario/nombre-del-repositorio.git
+
+Instala las dependencias:
+- npm install 
+
+Ejecuta el proyecto:
+- npm run dev
+
+
